@@ -1,0 +1,14 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: service-config
+#\u914D\u7F6E\u4E2D\u5FC3\u4ED3\u5E93\u914D\u7F6E
+  cloud:
+    config:
+      server:
+        git: git@172.16.200.102:config-dev/config.git
+          uri:
+          search-paths:
+          username:
+          password:

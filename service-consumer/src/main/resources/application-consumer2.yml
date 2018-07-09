@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: service-consumer
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer2:8402/eureka/ # \u914D\u7F6E\u6CE8\u518C\u4E2D\u5FC3
+  instance:
+    instance-id: consumer2 # \u914D\u7F6E\u670D\u52A1\u540D\u79F0
