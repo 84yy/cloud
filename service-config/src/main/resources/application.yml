@@ -12,3 +12,4 @@ spring:
           search-paths:
           username:
           password:
+test: aa
