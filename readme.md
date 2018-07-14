@@ -1,4 +1,5 @@
 - 这个项目主要用来练习，演示 cloud 架构的使用，作为入门与练手项目。
-- 这是分支feature/a 中添加的内容
-- 测试 git diff 命令
-
+- 这是分支feature/a 中添加g的内容
+- 这是 master 分支中添加的内容
+- 把这段内容添加到 master 中并运行了 git stash 指令
+- 第二次在 master 分支中添加内容，并运行 git stash 命令，缓存
